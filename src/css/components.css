@@ -1,0 +1,5 @@
+@layer components {
+  .button-danger {
+    @apply px-6 py-3 text-white bg-red-500;
+  }
+}

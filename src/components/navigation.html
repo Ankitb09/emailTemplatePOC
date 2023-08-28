@@ -1,0 +1,121 @@
+<script props>
+  module.exports = {
+    align: {
+      left: "text-left",
+      center: "text-center",
+      right: "text-right",
+    }[props.align],
+    href: props.href,
+    msoPt: props["mso-pt"] || "16px",
+    msoPr: props["mso-pr"] || "32px",
+    msoPb: props["mso-pb"] || "30px",
+    msoPl: props["mso-pl"] || "32px",
+  };
+</script>
+
+<tr>
+  <td bgcolor="{variables.bgcontent}" class="md:w-32">
+    <table cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center">
+          <table
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            width="100%"
+            class="plr5"
+          >
+            <tr>
+              <e-optional name="Link 1">
+                <td align="center" class="lh upc vat">
+                  <a
+                    e-editable="urlA_1"
+                    href="https://www.flaconi.de/parfum/?bid=$Magento_Business_ID$"
+                    target="_blank"
+                    class="fc4 fwb tdn"
+                    ><font e-editable="link_textA_1" class="ff fs12 fc4 small"
+                      >PARFUM</font
+                    ></a
+                  >
+                </td>
+              </e-optional>
+              <e-optional name="Link 2">
+                <td align="center" class="lh upc com vat">
+                  <a
+                    e-editable="urlA_2"
+                    href="https://www.flaconi.de/pflege/?bid=$Magento_Business_ID$"
+                    target="_blank"
+                    class="fc4 fwb tdn"
+                    ><font e-editable="link_textA_2" class="ff fs12 fc4 small"
+                      >PFLEGE</font
+                    ></a
+                  >
+                </td>
+              </e-optional>
+              <e-optional name="Link 3">
+                <td align="center" class="lh upc rom vat">
+                  <a
+                    e-editable="urlA_3"
+                    href="https://www.flaconi.de/make-up/?bid=$Magento_Business_ID$"
+                    target="_blank"
+                    class="fc4 fwb tdn"
+                    ><font e-editable="link_textA_3" class="ff fs12 fc4 small"
+                      >MAKE-UP</font
+                    ></a
+                  >
+                </td>
+              </e-optional>
+              <e-optional name="Link 4">
+                <td align="center" class="lh vat mh">
+                  <a
+                    e-editable="urlA_4"
+                    href="https://www.flaconi.de/haarpflege/?bid=$Magento_Business_ID$"
+                    target="_blank"
+                    class="fc4 fwb tdn"
+                    ><font e-editable="link_textA_4" class="ff fs12 fc4 small"
+                      >HAARE</font
+                    ></a
+                  >
+                </td>
+              </e-optional>
+              <e-optional name="Link 5">
+                <td align="center" width="120" class="lh vat mh">
+                  <a
+                    e-editable="urlA_5"
+                    href="https://www.flaconi.de/naturkosmetik/?bid=$Magento_Business_ID$"
+                    target="_blank"
+                    class="fc4 fwb tdn"
+                    ><font e-editable="link_textA_5" class="ff fs12 fc4 small"
+                      >NATURKOSMETIK</font
+                    ></a
+                  >
+                </td>
+              </e-optional>
+              <e-optional name="Link 6">
+                <td align="center" class="lh vat mh">
+                  <a
+                    e-editable="urlA_6"
+                    href="https://www.flaconi.de/sale/?bid=$Magento_Business_ID$"
+                    target="_blank"
+                    class="fc4 fwb tdn"
+                    ><font e-editable="link_textA_6" class="ff fs12 fc4 small"
+                      >SALE</font
+                    ></a
+                  >
+                </td>
+              </e-optional>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <e-optional name="Seperator">
+        <tr>
+          <td height="16" class="s3"><div></div></td>
+        </tr>
+        <tr>
+          <td height="1" bgcolor="#d5d5d5"><div></div></td>
+        </tr>
+      </e-optional>
+    </table>
+  </td>
+</tr>
